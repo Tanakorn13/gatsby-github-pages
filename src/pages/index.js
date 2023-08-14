@@ -1,5 +1,17 @@
-import * as React from "react"
+import React from 'react';
 
-export default function Home() {
-  return <div>Hello world!</div>
-}
+export default () => {
+  return (
+    <div>
+      <h2>Ahoy!</h2>
+      <p>CoE PSU</p>
+      <h2>Member</h2>
+      <h3>1.    นายสหรัฐ เชิดสุข         6310110501</h3>
+      <h3>2.    นายภาณุวิชญ์ สุขช่วย     6310110359</h3>
+      <h3>3.    นายธนากร พงค์ทองเมือง     6310110197</h3>
+      <h3>4.    นายนฤเบศน์ อุไรรัตน์     6310110234</h3>
+      <h3>5.    นายรวินท์ ว่องวโร         6310110404</h3>
+      <h3>6.    นายสุรวุฒิ สายทองอินทร์    6310110533</h3>
+    </div>
+  );
+};
